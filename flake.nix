@@ -32,6 +32,9 @@
             zlib
             stdenv.cc.cc.lib
             "/run/opengl-driver"
+            e2fsprogs
+            gmpxx
+            p11-kit
           ];
       };
     };
